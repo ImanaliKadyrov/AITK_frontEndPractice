@@ -11,7 +11,7 @@
     <title>Biography 3D0814</title>
 </head>
 <body>
-    <section>
+    <nav>
         <div class="header ">
             <a href="#MAIN" class="button first">MAIN</a>
             <a href="#HOBBY" class="button">HOBBY</a>
@@ -21,7 +21,7 @@
 
         </div>
         
-    </section>
+    </nav>
     
    <section id="MAIN" class="parent ">
     
@@ -32,7 +32,7 @@
         <img class="t400 absolute" src="stick.png" >
         <img class="t500 absolute" src="stick.png" >
         <img class="hello"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAADICAMAAAA9W+hXAAAAA1BMVEVObl0z2vZwAAAANElEQVR4nO3BMQEAAADCoPVP7WsIoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAN1+AABVhDU2QAAAABJRU5ErkJggg==">-->   
-        <h1 class="absolute">Hello, my name is Imanali<br>I am student of NSPM<br>I am 16</h1>
+        <h1 class="absolute">Hello, my name is <strong>Imanali</strong><br>I am student of NSPM<br><em>I am 16</em></h1>
     </div>
     <div class="box">
         <img class="backpicture deg-15" src="https://www.colorhexa.com/ffffff.png" alt="Здесь должно было быть мое фото но что то пошло не так">
@@ -42,11 +42,11 @@
 
    <section id="HOBBY" class="parent2 ">
     <h2 class="absolute htext">My hobbies:<br></h2>
-       <il>
-           <h4 style="padding-top: 0 ;">maths</h4>
-           <h4 style="padding-top: 5% ;">music</h4>
-           <h4 style="padding-top: 10% ;">coding</h4>
-       </il>
+       <ol>
+            <li><h4 style="padding-top: 0 ;">maths</h4></li>
+            <li><h4 style="padding-top: 5% ;">music</h4></li>
+            <li><h4 style="padding-top: 10% ;">coding</h4></li>
+       </ol>
    <div class="box2">
 
     <img class="backpicture deg10" src="https://www.colorhexa.com/ffffff.png">
@@ -71,36 +71,70 @@
 </div>
    </section>
    <section id="SKILLS" class="parent4">
-    <h2>MY&nbsp; SKILLS:</h2>
-    <ol>
-        <h3>Russian:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🟦🟦🟦🟦🟦🟦🟦🟦⬜⬜</h3>
-        <h3>English:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🟦🟦🟦🟦🟦⬜⬜⬜⬜⬜</h3>
-        <h3>Math: &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🟦🟦🟦🟦🟦🟦🟦🟦⬜⬜</h3>
-        <h3>Physics: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🟦🟦🟦🟦🟦🟦🟦⬜⬜⬜</h3>
-        <h3 class="slast">Web development:&nbsp;🟦🟦🟦🟦🟦⬜⬜⬜⬜⬜</h3>
-    </ol>
-    
-  
+    <table border="1" style="margin: 0 10% 0 10%;">
+    <thead><h2 style="padding-top: 0;">MY&nbsp; SKILLS:</h2></thead>
+    <tbody>
+        <tr><td><h3>Russian:</h3></td><td><h3>🟦🟦🟦🟦🟦🟦🟦🟦⬜⬜</h3></td></tr>
+        <tr><td><h3>English:</h3></td><td><h3>🟦🟦🟦🟦🟦⬜⬜⬜⬜⬜</h3></td></tr>
+        <tr><td><h3>Math:</h3></td><td><h3>🟦🟦🟦🟦🟦🟦🟦🟦⬜⬜</h3></td></tr>
+        <tr><td><h3>Physics:</h3></td><td><h3>🟦🟦🟦🟦🟦🟦🟦⬜⬜⬜</h3></td></tr>
+        <tr><td><h3 class="slast">Web-development:</h3></td><td><h3>🟦🟦🟦🟦⬜⬜⬜⬜⬜⬜</h3></td></tr>
+        
+    </tbody></table>
+    <hr>
+<form>    
+<section id="form">
+    <h1>commentary</h1>
+<p>
+<label for="name">Name</label><br>
+<input type="text" id="name" name="name">
+</p>
+<p>
+<label for="email">Email</label><br>
+<input type="email" id="email" name="email">
+</p>
+<p>
+<label for="topic">Topic</label><br>
+<select id="topic" name="topic">
+<option>Where to send my money</option>
+<option>Where can I see You</option>
+<option>Some advice</option>
+</select>
+</p>
+
+<p>
+<label for="message">Message</label><br>
+<textarea id="message" rows="3"></textarea>
+</p>
+<input type="checkbox" id="accept" name="accept" value="aboba">
+<label for="accept" style="font-size: xx-small; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">I read the text propely and I give my soul into use of the owner of this site</label><br>
+<button type="submit">send</button><br>
+<button type="reset">delete</button>
+</section></form>
 </body>
 <footer>
+    <article>
     <div class="footer-content">
         <p class="social-links">&nbsp;You can find me in social media:</p>
-        <div class="social-links">
+        <ul>
+        <li><div class="social-links">
             <a href=" https://wa.me/+77072230954" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a><p>&nbsp;whatsapp</p>
-        </div>
-        <div class="social-links">
+        </div></li>
+        <li><div class="social-links">
             <a href=" https://t.me/+77072230954" target="_blank" class="social-icon"><i class="fab fa-telegram"></i></a><p> &nbsp;telegram</p>
-        </div>
-            <div class="social-links">
+        </div></li>
+        <li><div class="social-links">
             <a href="https://www.instagram.com/imanalikadyrov/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a><p>&nbsp;instagram</p>
-        </div>
-        <div class="social-links">
+        </div></li>
+        <li><div class="social-links">
             <a href="https://github.com/ImanaliKadyrov" target="_blank" class="social-icon"><i class="fab fa-github"></i></a><p>&nbsp;github</p>
-        </div>
+        </div></li>
+        </ul>
         <p class="social-links">&nbsp;<span id="year"></span>Lets create somtheing new together!</p>
         
         
     </div>
+    </article>
 </footer>
 </html>
 <script>
