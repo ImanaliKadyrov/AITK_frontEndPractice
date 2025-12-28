@@ -149,10 +149,13 @@ h2{
 }
 h3{
     font-size: 60px;
-    padding-left: 15%;
+    padding-left: 10%;
 }
 
-
+h4{
+    padding-left: 1%;
+    position: absolute;
+}
 
 .footer-content{
     font-family: 'Courier New', Courier, monospace;
@@ -295,3 +298,4 @@ h3{
         left: 368px;   
   }
 }
+
