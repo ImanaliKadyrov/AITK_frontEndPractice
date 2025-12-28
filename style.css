@@ -150,6 +150,7 @@ h2{
 h3{
     font-size: 60px;
     padding-left: 10%;
+    margin: 0;
 }
 
 h4{
@@ -298,4 +299,3 @@ h4{
         left: 368px;   
   }
 }
-
